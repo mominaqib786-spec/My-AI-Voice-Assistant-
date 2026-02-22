@@ -1,0 +1,26 @@
+{
+  "name": "Remix: IMAN OMNI CORE",
+  "description": "A world-class Islamic Knowledge AI, dedicated to truth, wisdom, and continuous self-improvement in the path of Islam.",
+  "requestFramePermissions": [
+    "geolocation",
+    "camera",
+    "microphone",
+    "display-capture"
+  ],
+  "androidPermissions": [
+    "android.permission.SYSTEM_ALERT_WINDOW",
+    "android.permission.REQUEST_INSTALL_PACKAGES",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+    "android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION",
+    "android.permission.PROJECT_MEDIA",
+    "android.permission.WAKE_LOCK",
+    "android.permission.RECORD_AUDIO"
+  ],
+  "intents": [
+    "system_alert_window",
+    "background_persistence",
+    "action_manage_overlay_permission",
+    "media_projection"
+  ]
+}
